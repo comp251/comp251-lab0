@@ -1,16 +1,19 @@
 <!--ts-->
-* [Logging in](README.md#logging-in)
-   * [Off-campus access](README.md#off-campus-access)
-* [Getting started](README.md#getting-started)
-* [Working with branches](README.md#working-with-branches)
-* [Editing your program](README.md#editing-your-program)
-* [Compiling and running your program](README.md#compiling-and-running-your-program)
-* [Committing your code and pushing your commits](README.md#committing-your-code-and-pushing-your-commits)
+* [Introduction](#introduction)
+* [Logging in](#logging-in)
+   * [Off-campus access](#off-campus-access)
+* [Getting started](#getting-started)
+* [Working with branches](#working-with-branches)
+* [Editing your program](#editing-your-program)
+* [Compiling and running your program](#compiling-and-running-your-program)
+* [Committing your code and pushing your commits](#committing-your-code-and-pushing-your-commits)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: langm, at: Fri Dec 16 19:30:01 UTC 2022 -->
+<!-- Added by: langm, at: Fri Dec 16 19:41:33 UTC 2022 -->
 
 <!--te-->
+
+# Introduction
 
 We will be using a command line shell interface for development in this course.
 We will also be using version control tools (git) to track changes in our work
@@ -209,11 +212,13 @@ When you're done, answer the following questions:
    constructs in other languages you know (Java or Python). Describe at least
    three.
 
-After you're done making your changes and exploring the file, close the file and open this one to
-add your answers! `vim README.md` will open the file. As you can
-see, the file is formatted using a markup language called markdown. Here's a
+After you're done making your changes and exploring the file, close the file and
+open this one to add your answers! `vim README.md` will open the file. As you
+can see, the file is formatted using a markup language called markdown. Here's a
 [cheat
-sheet](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for GitHub-specific markdown.  Format your answers as block quotes under the questions. 
+sheet](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+for GitHub-specific markdown.  Format your answers as block quotes under the
+questions. 
 
 If you want to read about what MD5 actually is, skim the [Wikipedia
 page](https://en.wikipedia.org/wiki/MD5).
@@ -268,15 +273,16 @@ The manual page will open in `less`. Use the arrow keys to navigate and `q` to
 quit. Use the manual to answer the following:
 
 9. One difference between C and other languages you have used is that C requires
-you to explicitly manage dynamically-allocated memory. What do you think line 9
-of `hello.c` is doing?
+   you to explicitly manage dynamically-allocated memory. What do you think line
+   9 of `hello.c` is doing?
 
 10. What do you think line 35 is doing?
 
 11. Try moving line 35 to above line 25. What do you think will happen when you
     compile and run the program again? 
 
-12. Compile and run the program. What happened? Why do you think this happened?
+12. Compile and run the program. Try moving it different places and see if there
+    is any different behavior. What happened? Why do you think this happened?
 
 13. Try adding `free(name);` somewhere. What do you think will happen? What
     happened?
@@ -284,6 +290,9 @@ of `hello.c` is doing?
 We will talk a lot more about memory management in the coming weeks.
 
 # Committing your code and pushing your commits
+
+First, undo the changes that you made above in steps 11--13. Compile and run
+your program again.
 
 Now that we've finished editing, it's time to commit our changes and push our
 feature! 
@@ -334,8 +343,9 @@ URL to create a pull request. When you want to submit this, create a pull
 request for me to review. In the GitHub UI, set me (`@ml8`) as a reviewer.
 Do not merge the pull request! This is how I will grade your work.
 
-Later, __after__ I have graded your lab, you can merge the pull request. Come back to
-your repository, and update your local with the changes made to your main branch!
+Later, __after__ I have graded your lab, you can merge the pull request. Come
+back to your repository, and update your local with the changes made to your
+main branch!
 
 ```
 $ git checkout main
