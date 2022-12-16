@@ -1,5 +1,3 @@
-# COMP251 Lab 0
-
 <!--ts-->
 * [Logging in](README.md#logging-in)
    * [Off-campus access](README.md#off-campus-access)
