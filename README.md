@@ -324,8 +324,10 @@ following to push your branch to GitHub.
 $ git push
 ```
 
-It will error the first time you do this and tell you what you need to do to fix
-it. Once you've set the upstream for the branch, you can continue to commit and
+__It will error the first time you do this and tell you what you need to do to
+fix it.__ Run the command that git specifies to set the remote repository.
+
+Once you've set the upstream for the branch, you can continue to commit and
 push as much as you'd like. Keeping GitHub in sync with your changes on your
 computer by pushing your commits has a great side effect of backing up your
 work!
