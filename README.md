@@ -1,3 +1,4 @@
+<a name="toc"></a>
 <!--ts-->
 * [Introduction](#introduction)
 * [Logging in](#logging-in)
@@ -27,6 +28,8 @@ After this lab, you should:
 * compile a program using a command-line C compiler.
 * use common commands like `cd`, `pwd`, `ls`, `less`, and `cat` as well as run
   user-compiled programs.
+
+🔝 [back to top](#toc)
 
 # Logging in
 
@@ -89,6 +92,8 @@ Follow [the instructions](https://tinyr.us/rhodes-vpn) provided by ITS to get
 access to VPN.  After connecting to the Rhodes VPN, you can use `ssh` like
 normal.
 
+🔝 [back to top](#toc)
+
 # Getting started
 
 First, clone this repository to your account.
@@ -108,6 +113,8 @@ $ ls
 ```
 
 You should see this file (`README.md`) and a C source file (`hello.c`). 
+
+🔝 [back to top](#toc)
 
 # Working with branches
 
@@ -142,6 +149,8 @@ $ git status
 
 Before you continue, make sure that you are using the `namefix` branch: `git
 checkout namefix`.
+
+🔝 [back to top](#toc)
 
 # Editing your program
 
@@ -223,6 +232,8 @@ questions.
 If you want to read about what MD5 actually is, skim the [Wikipedia
 page](https://en.wikipedia.org/wiki/MD5).
 
+🔝 [back to top](#toc)
+
 # Compiling and running your program
 
 Cool! Now lets compile and run our first program! We'll use the GCC C compiler
@@ -289,6 +300,8 @@ quit. Use the manual to answer the following:
 
 We will talk a lot more about memory management in the coming weeks.
 
+🔝 [back to top](#toc)
+
 # Committing your code and pushing your commits
 
 First, undo the changes that you made above in steps 11--13. Compile and run
@@ -353,4 +366,6 @@ main branch!
 $ git checkout main
 $ git pull
 ```
+
+🔝 [back to top](#toc)
 
